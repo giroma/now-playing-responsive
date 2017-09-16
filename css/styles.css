@@ -195,3 +195,39 @@ figure {
 .about > p {
   margin: 0;
 }
+/* MEDIA */
+@media screen and (min-width: 768px) {
+  .movie-overview{
+    display: inline-block;
+  }
+  .site-footer{
+    background-color: black;
+  }
+  .footer-nav{
+    display: inline-block;
+    color: white;
+  }
+  .about{
+    display: inline-block;
+    background-color: black;
+
+  }
+  .about p{
+    display: table-cell;
+    padding-right: 0.5em;
+  }
+  .site-nav{
+    padding-top: 66px;
+    top: 0;
+    width: 70px;
+
+  }
+  .site-nav-item{
+    width: 65px;
+  }
+  .site-logo{
+    width: 40px;
+    height: 40px;
+    z-index: 101;
+  }
+}
