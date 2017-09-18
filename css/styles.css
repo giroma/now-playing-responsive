@@ -28,7 +28,7 @@ body {
    but are never stretched beyond their native resolution
 */
 img {
-  max-width: 100%;
+  width: 100%;
 }
 
 figure {
@@ -108,6 +108,7 @@ figure {
 .movie-poster,
 .movie-backdrop {
   display: block;
+
 }
 
 /*
@@ -211,7 +212,7 @@ figure {
     display: inline-block;
     background-color: black;
     vertical-align: middle;
-    
+
 
   }
   .about p{
