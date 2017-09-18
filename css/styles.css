@@ -210,6 +210,8 @@ figure {
   .about{
     display: inline-block;
     background-color: black;
+    vertical-align: middle;
+    
 
   }
   .about p{
