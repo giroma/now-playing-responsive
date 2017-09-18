@@ -232,6 +232,12 @@ figure {
   }
   main{
     margin-left: 70px;
+    overflow: hidden;
+    background-color: grey;
+
+  }
+  body{
+    padding: 0;
   }
 }
 @media screen and (min-width: 992px) {
@@ -247,6 +253,7 @@ figure {
     }
   article:not(:first-child){
     display: inline-block;
-    width:33.1%;
+    float: left;
+    width:33.33%;
   }
 }
