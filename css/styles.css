@@ -230,4 +230,23 @@ figure {
     height: 40px;
     z-index: 101;
   }
+  main{
+    margin-left: 70px;
+  }
+}
+@media screen and (min-width: 992px) {
+
+  .movie:not(:first-child) .movie-overview{
+      display: none;
+    }
+  .movie:not(:first-child) .movie-backdrop{
+      display: none;
+    }
+  .movie:not(:first-child) .movie-poster{
+      display: inline-block;
+    }
+  article:not(:first-child){
+    display: inline-block;
+    width:33.1%;
+  }
 }
